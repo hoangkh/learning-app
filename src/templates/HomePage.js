@@ -1,5 +1,5 @@
 import React from 'react';
-import './Styles.css';
+import './Style.css';
 
 function Home() {
     const menuItems= ['Home', 'About', 'Learn', 'Social Media', 'API', 'Blog']

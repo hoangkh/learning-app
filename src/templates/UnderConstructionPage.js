@@ -1,12 +1,12 @@
 import React from 'react';
 import {  Link } from "react-router-dom";
 
-import './Styles.css';
+import './Style.css';
 
-function UnderConstructionPage() {
+function UnderConstruction() {
     return <div id="under-construction-page"><h2>The page you see is under construction, please try again later!</h2>
     <Link to="/" className="brand-name">Go back to main page</Link>
     </div>;
   }
 
-export default UnderConstructionPage;
+export default UnderConstruction;
