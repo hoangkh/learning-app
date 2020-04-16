@@ -3,10 +3,7 @@ import './Style.css';
 
 function Register() {
     return <div id="register-page">
-    Hello Media
-      <Header />
-      <Body />
-      <Footer />
+    Hello Register
       </div>;
   }
 

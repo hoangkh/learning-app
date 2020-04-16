@@ -3,10 +3,7 @@ import './Style.css';
 
 function Login() {
     return <div id="login-page">
-    Hello Media
-      <Header />
-      <Body />
-      <Footer />
+    Hi login
       </div>;
   }
 

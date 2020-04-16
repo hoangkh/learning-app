@@ -88,3 +88,11 @@ a.menu-items{
 a.brand-name{
   color: black;
 }
+
+/*Image icon*/
+img.menu-icon{
+  width: 1.5em; 
+}
+img.gear-icon{
+  width: 3.5em; 
+}

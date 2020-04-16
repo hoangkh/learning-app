@@ -1,14 +1,12 @@
 import React from 'react';
+
 import './Style.css';
 
+import DisplayCourse from "../components/DisplayCourse/index";
+
 function Home() {
-    const menuItems= ['Home', 'About', 'Learn', 'Social Media', 'API', 'Blog']
     return <div id="home-page">
-    <div className="grid-container">
-        {menuItems.map((project, index) => ( 
-        <div key={index} className="project-name grid-item">{project}</div>        
-        ))}                           
-  </div>
+        <DisplayCourse />
   </div>;
 }
   

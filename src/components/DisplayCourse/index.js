@@ -1,14 +1,12 @@
 import React from 'react';
 import './Style.css';
 
+import ControlledCarousel from "./ControlledCarousel";
 
-function MediaEntertain() {
-    return <div id="media-entertain-page">
-    Hello Media
-      <Header />
-      <Body />
-      <Footer />
+function DisplayCourse() {
+    return <div id="display-course-page">
+    <ControlledCarousel />
       </div>;
   }
 
-export default MediaEntertain;
+export default DisplayCourse;
