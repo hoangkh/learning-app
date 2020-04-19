@@ -1,12 +1,21 @@
 import React from 'react';
 
+import { Container, Row, Col } from 'react-bootstrap';
 import './Style.css';
 
-import DisplayCourse from "../components/DisplayCourse/index";
+import DisplayCourse from "../components/DisplayCourse/Main";
 
 function Home() {
     return <div id="home-page">
-        <DisplayCourse />
+    <Container>
+        <Row>
+            <DisplayCourse />
+        </Row>
+        <Row>
+            <Col></Col>
+            <Col></Col>
+        </Row>
+    </Container>
   </div>;
 }
   

@@ -3,10 +3,10 @@ import './Style.css';
 
 import ControlledCarousel from "./ControlledCarousel";
 
-function DisplayCourse() {
+function Main() {
     return <div id="display-course-page">
     <ControlledCarousel />
       </div>;
   }
 
-export default DisplayCourse;
+export default Main;

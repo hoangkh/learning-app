@@ -15,7 +15,6 @@ import Profile from "./templates/ProfilePage";
 import Community from "./templates/CommunityPage";
 import MyLearning from "./templates/MyLearningPage";
 import Setting from "./templates/SettingPage";
-import About from "./templates/AboutPage";
 import NotFoundPage from "./templates/NotFoundPage";
 import UnderConstructionPage from "./templates/UnderConstructionPage";
 
@@ -29,9 +28,6 @@ export default function App() {
         <Header />
         
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
           <Route path="/community">
             <Community />
           </Route>
@@ -52,15 +48,14 @@ export default function App() {
             <Register />
           </Route>
     
-          <Route path="/">
-            <About />
-          </Route>
           <Route path="/under-construction">
             <UnderConstructionPage />
           </Route>
+          
           <Route exact path="/">
             <Home />
           </Route>
+
           <Route path="*">
             <NotFoundPage />
           </Route>

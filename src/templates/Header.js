@@ -22,7 +22,7 @@ function Header() {
         <Button variant="outline-success">Search</Button>
       </Form>
       <Nav className="mr-auto">
-        <Link className="menu-items" to="/home"><img className="menu-icon" src={HomeIcon} alt="House icon" /></Link>
+        <Link className="menu-items" to="/"><img className="menu-icon" src={HomeIcon} alt="House icon" /></Link>
       </Nav>
       <Nav className="mr-auto">
         <Link className="menu-items" to="/my-learning">My Learning</Link>
